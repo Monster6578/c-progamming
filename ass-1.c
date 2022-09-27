@@ -1,14 +1,22 @@
-#include <stdio.h>
+#include<stdio.h>
+#include<conio.h>
 
-int main() {
-    int l;
-    int b;
-    int h;
-    printf("enter the value \n:",l);
-    scanf("%d",&l);
-    printf("enter the value \n:",b);
-    scanf("%d",&b);
-    printf("enter the value\n :",h);
-    scanf("%d",&h);
-    printf("%d", l*b*h);
-} 
+int main()
+{
+	 char ch;
+	
+	 printf("Enter chracter: ");
+	 scanf("%c", &ch);
+	
+	 if(ch>='0' && ch<='9')
+	 {
+	  	printf("%c is DIGIT.", ch);
+	 }
+	 else
+	 {
+	  	printf("%c is NOT DIGIT.", ch);
+	 }
+	
+	 getch();
+	 return(0);
+}
