@@ -4,14 +4,14 @@
 // int countlength(char arr[]);
 // void salting(char password[]);
 // void slice(char str[],int n,int m);
-void rvowels(int str[]);
+void vvv(char str[]);
 int main()
  {
    char str[]="HelloWolrd";
- printf("vowels are:  %d", rvowels(str));
-
+ printf("vowel are:  %d",vvv(str));
+ 
 }
-void rvowels(int str[]){
+void vvv(char str[]){
     int count=0;
     for(int i=0;str[i]!='\0';i++){
         if(str[i]=='a'||str[i]=='e'||str[i]=='i'||str[i]=='o'||str[i]=='u'||)
